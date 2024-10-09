@@ -18,12 +18,12 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse bg-secondary " id="navbarNav">
+            <div class="collapse navbar-collapse bg-secondary" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li style="border: 20px;" class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li style="border: 10px;" class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li style="border: 10px;" class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li style="border: 10px;" class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li> <!-- Link updated -->
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -77,21 +77,24 @@
     <!-- Portfolio Section -->
     <h1>My Portfolio</h1>
     
-    <div class="portfolio">
-        <div class="project">
-            <img src="/picture/int.jpg" alt="Project 1">
-            <h3>Interactive Management System</h3>
-            <p>The Interactive Management System is a comprehensive platform designed to streamline communication and administrative tasks between students and tutors. It includes features like student and admin dashboards, attendance tracking, result viewing, appointment scheduling, and real-time notifications. The system offers an intuitive interface, enabling efficient management of academic activities and promoting seamless interaction within educational institutions.</p>
-            <a href="/bootstrap/python/assignment.py" target="_blank">View Project</a>
+    <section id="portfolio" class="py-5">
+        <h1 class="text-center">My Portfolio</h1>
+        <div class="portfolio">
+            <div class="project">
+                <img src="/picture/int.jpg" alt="Project 1">
+                <h3>Interactive Management System</h3>
+                <p>The Interactive Management System is a comprehensive platform designed to streamline communication and administrative tasks between students and tutors...</p>
+                <a href="/bootstrap/python/assignment.py" target="_blank">View Project</a>
+            </div>
+            
+            <div class="project">
+                <img src="/picture/mess.jpg" alt="Project 2">
+                <h3>Mess Stock and Financial System</h3>
+                <p>A Mess Stock and Financial System is a streamlined solution for managing inventory and finances within a mess or cafeteria...</p>
+                <a href="https://example.com/project2" target="_blank">View Project</a>
+            </div>
         </div>
-        
-        <div class="project">
-            <img src="/picture/mess.jpg" alt="Project 2">
-            <h3>mess stock and financial system</h3>
-            <p>A Mess Stock and Financial System is a streamlined solution for managing inventory and finances within a mess or cafeteria. It tracks stock levels of food and supplies, records purchases and consumption, and helps in budgeting. The system generates financial reports, monitors expenses, and ensures efficient stock management, reducing wastage and optimizing resources for smooth day-to-day operations.</p>
-            <a href="https://example.com/project2" target="_blank">View Project</a>
-        </div>
-    </div>
+    </section>
 
 
                 
